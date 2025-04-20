@@ -1,7 +1,7 @@
 {
-  "whatNew": "- Dark mode support added\n- Fixed login crash on Android 13\n- Improved offline support\n- Updated UI with material design 3\n- Minor bug fixes and performance improvements",
+  "whatNew": "1. Dark mode support added.\n2. Fixed login crash on Android 13.\n3. Improved offline support.\n4. Updated UI with material design 3.\n5. Minor bug fixes and performance improvements.   ",
   "version": "1.1.0",
-  "downloadLink": "https://example.com/downloads/app-v1.1.0.apk",
+  "downloadLink": "https://github.com/anthonycr/Lightning-Browser/blob/master/BrowserActivity.apk",
   "apiKey": "4a9f0c83-35a2-4bd7-aabc-73a8888aefb1",
   "message": "🚀 New version available!\n1.We've made some great improvements and fixes.\n2.Update now to enjoy the best experience.",
   "block": false,
