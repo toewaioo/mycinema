@@ -4,7 +4,7 @@ const BubbleFlame = () => {
   useEffect(() => {
     const container = document.querySelector(".bubble-container");
 
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 50; i++) {
       const bubble = document.createElement("div");
       bubble.classList.add("bubble");
       container.appendChild(bubble);

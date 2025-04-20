@@ -31,9 +31,9 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`sticky top-0 w-full p-2 md:pl-16 md:pr-16  transition duration-300 ${
+      className={`sticky  w-full p-2 md:pl-16 md:pr-16  top-0 left-0 right-0 z-50 transition-all duration-300   ${
         visible
-          ? "translate-y-0 backdrop-blur-lg bg-white bg-opacity-5"
+          ? "translate-y-0 bg-background/80 backdrop-blur-sm border-b"
           : "-translate-y-full"
       }`}
     >
@@ -76,6 +76,12 @@ const NavBar = () => {
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-500 mr-4 cursor-pointer"
             >
               Feature
+            </a>
+            <a
+              onClick={() => scrollToSection("intro")}
+              className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-500 cursor-pointer"
+            >
+              App Intro
             </a>
             <a
               onClick={() => scrollToSection("download")}

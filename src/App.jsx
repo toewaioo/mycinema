@@ -8,6 +8,7 @@ import Component from "./component/Component";
 import Roadmap from "./component/Roadmap";
 import BubbleFlame from "./component/BubleFrame";
 import "./component/bublecss.css";
+import Footer from "./component/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,7 +24,7 @@ function App() {
       <div className="block bg-neutral-100">
         <Navbar />
         <Component />
-        <section id="feature" className="h-screen w-full bg-green-300">
+        <section id="feature" className="h-[80%] w-full bg-green-300">
           <div className="feature flex flex-col items-center justify-center h-screen">
             <h2 className="text-4xl font-bold mb-5">Supported Sites</h2>
             <div className="container grid  grid-cols-3 grid-rows-2 gap-9 m-5">
@@ -68,12 +69,13 @@ function App() {
             
           </div>
         </section>
-        <section id="download" className="w-full block bg-blue-400 ">
+        <section id="intro" className="w-full block bg-blue-400 ">
           <h3 className="flex items-center justify-center p-5 text-4xl font-bold">
             Introduce App
           </h3>
           <Roadmap />
         </section>
+        <Footer/>
       </div>
     </>
   );
