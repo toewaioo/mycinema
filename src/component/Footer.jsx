@@ -27,7 +27,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 {["FAQ", "Contact", "Privacy"].map((item) => (
                   <li key={item}>
-                    <a href={item} className="hover:text-white transition-colors">
+                    <a href={item == "Privacy" ? "privacy.html" : ""} className="hover:text-white transition-colors">
                       {item}
                     </a>
                   </li>
