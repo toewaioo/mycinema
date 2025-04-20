@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="my">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCinema - ကိုယ်ရေးအချက်အလက်မူဝါဒ</title>
+    <style>
+      :root {
+        --primary-red: #e50914;
+        --dark-bg: #141414;
+        --section-bg: #1a1a1a;
+        --text-white: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Pyidaungsu", sans-serif;
+      }
+
+      body {
+        background: var(--dark-bg);
+        color: var(--text-white);
+        line-height: 1.8;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      .header {
+        text-align: center;
+        padding: 3rem 0;
+        border-bottom: 3px solid var(--primary-red);
+        margin-bottom: 2rem;
+      }
+
+      .header h1 {
+        color: var(--primary-red);
+        font-size: 2.8rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .policy-section {
+        background: var(--section-bg);
+        padding: 2rem;
+        border-radius: 10px;
+        margin: 1.5rem 0;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      }
+
+      h2.section-title {
+        color: var(--primary-red);
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+        border-left: 4px solid var(--primary-red);
+        padding-left: 1rem;
+      }
+
+      ul.data-list {
+        padding-left: 2rem;
+        margin: 1.2rem 0;
+        list-style-type: square;
+        color: #ccc;
+      }
+
+      .warning-box {
+        background: #2d0608;
+        border: 1px solid var(--primary-red);
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin: 1.5rem 0;
+      }
+
+      .contact-link {
+        color: var(--primary-red) !important;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .copyright-footer {
+        background: #000;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 3rem;
+        border-radius: 10px;
+      }
+
+      /* Back to Top Button */
+      .top-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: var(--primary-red);
+        color: white;
+        padding: 12px 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(229, 9, 20, 0.3);
+        display: none;
+        transition: 0.3s;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        .header h1 {
+          font-size: 2rem;
+        }
+
+        h2.section-title {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button class="top-btn" onclick="scrollToTop()">↑</button>
+
+    <div class="container">
+      <div class="header">
+        <h1>MyCinema</h1>
+        <p>ကိုယ်ရေးအချက်အလက်နှင့် မူပိုင်ခွင့်မူဝါဒ</p>
+      </div>
+
+      <!-- Section 1: Data Collection -->
+      <div class="policy-section">
+        <h2 class="section-title">၁။ အချက်အလက်စုဆောင်းခြင်း</h2>
+        <ul class="data-list">
+          <li>
+            အလိုအလျောက်စုဆောင်းသောအချက်များ (IP လိပ်စာ၊ စက်အမျိုးအစား၊ OS
+            ဗားရှင်း)
+          </li>
+          <li>သုံးစွဲသူမှ တိုက်ရိုက်ထည့်သွင်းသောအချက်များ (အီးမေးလ်၊ အမည်)</li>
+          <li>
+            Third-Party ဝန်ဆောင်မှုများမှ အချက်အလက်များ (Google Analytics)
+          </li>
+        </ul>
+      </div>
+
+      <!-- Section 2: Data Usage -->
+      <div class="policy-section">
+        <h2 class="section-title">၂။ အချက်အလက်အသုံးပြုမှု</h2>
+        <ul class="data-list">
+          <li>ဝန်ဆောင်မှုများ ပိုမိုကောင်းမွန်စေရန်</li>
+          <li>အသုံးပြုမှုစာရင်းဇယားများ ပြုစုရန်</li>
+          <li>ဥပဒေအရ တာဝန်ပြည့်စုံမှု</li>
+        </ul>
+      </div>
+
+      <!-- Section 3: Data Sharing -->
+      <div class="policy-section">
+        <h2 class="section-title">၃။ အချက်အလက်မျှဝေခြင်း</h2>
+        <ul class="data-list">
+          <li>တရားဝင်ဥပဒေအရ တောင်းဆိုပါက မျှဝေမည်</li>
+          <li>ဝန်ဆောင်မှုချိုးဖောက်မှုများ စုံစမ်းရာတွင်</li>
+          <li>ကျွန်ုပ်တို့၏ ဝန်ဆောင်မှုများကို မည်သူ့ကိုမှ မရောင်းချပါ</li>
+        </ul>
+      </div>
+
+      <!-- Section 4: External Links -->
+      <div class="policy-section">
+        <h2 class="section-title">၄။ ပြင်ပလင့်ခ်များ</h2>
+        <p>
+          ဤအက်ပ်မှ ဖော်ပြသော ရုပ်ရှင်လင့်ခ်များသည် အပြင်ဘက် Third-Party
+          ဆာဗာများသို့ ချိတ်ဆက်ထားပါသည်။
+        </p>
+        <div class="warning-box">
+          ⚠️ ပြင်ပလင့်ခ်များ၏ လုံခြုံမှုနှင့် မူဝါဒများကို ကျွန်ုပ်တို့
+          ထိန်းချုပ်၍မရပါ။
+        </div>
+      </div>
+
+      <!-- Section 5: Security -->
+      <div class="policy-section">
+        <h2 class="section-title">၅။ လုံခြုံရေး</h2>
+        <ul class="data-list">
+          <li>SSL စနစ်ဖြင့် ကာကွယ်ထားပါသည်</li>
+          <li>အချက်အလက်များ လုံခြုံစွာသိမ်းဆည်းခြင်း</li>
+          <li>အင်တာနက်ပေါ်တွင် 100% လုံခြုံမှုမရှိကြောင်း သတိပြုရန်</li>
+        </ul>
+      </div>
+
+      <!-- Section 6: User Rights -->
+      <div class="policy-section">
+        <h2 class="section-title">၆။ သုံးစွဲသူအခွင့်အရေးများ</h2>
+        <ul class="data-list">
+          <li>အချက်အလက်များကို ပြင်ဆင်ခြင်း/ဖျက်သိမ်းခြင်း</li>
+          <li>ဒေတာစုဆောင်းမှုကို ငြင်းဆန်ခြင်း</li>
+          <li>အသုံးပြုမှုစည်းမျဉ်းများကို ကန့်ကွက်ခြင်း</li>
+        </ul>
+      </div>
+
+      <!-- Section 7: Copyright -->
+      <div class="policy-section">
+        <h2 class="section-title">၇။ မူပိုင်ခွင့်သတိပေးချက်</h2>
+        <div class="warning-box">
+          <p>
+            ❗ ဤအက်ပ်သည် ပြင်ပဝက်ဘ်ဆိုက်များမှ
+            <strong>scraping နည်းဖြင့်</strong> ရုပ်ရှင်လင့်ခ်များကို
+            စုဆောင်းဖော်ပြခြင်းသာ ဖြစ်ပါသည်။
+          </p>
+          <p>
+            ❗ မည်သည့်ရုပ်ရှင်ကိုမျှ ဤအက်ပ်တွင်
+            <strong>သိမ်းဆည်းထားခြင်းမရှိပါ</strong>။
+          </p>
+          <p>
+            🔗 DMCA ဖယ်ရှားရန်:
+            <a href="mailto:mycinema.app@gmail.com" class="contact-link"
+              >mycinema.app@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="copyright-footer">
+        <p>© <span id="currentYear"></span> MyCinema. All rights reserved</p>
+        <p style="margin-top: 1rem; color: #666">
+          Version 1.0 • Last Updated: 2024-03-25
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Auto Update Year
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      // Back to Top Button Logic
+      window.onscroll = () => {
+        const topBtn = document.querySelector(".top-btn");
+        if (
+          document.body.scrollTop > 500 ||
+          document.documentElement.scrollTop > 500
+        ) {
+          topBtn.style.display = "block";
+        } else {
+          topBtn.style.display = "none";
+        }
+      };
+
+      const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+
+      // Add smooth scrolling to all anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
