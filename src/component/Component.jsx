@@ -15,6 +15,7 @@ import movies from "/movies.png";
 import series from "/series.png";
 import seriesDetail from "/series_detail.png";
 import movieDetail from "/movies_detail.png";
+import direct from '/direct.png'
 
 export default function Component() {
   const images = [
@@ -88,7 +89,7 @@ export default function Component() {
 
                     <img
                       class="h-[3rem]"
-                      src="https://iili.io/3EAbSNs.png"
+                      src="/direct.png"
                     />
                   </a>
                 </div>

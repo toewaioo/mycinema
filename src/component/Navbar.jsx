@@ -37,10 +37,11 @@ const NavBar = () => {
           : "-translate-y-full"
       }`}
     >
+       <div className="container mx-auto px-4">
       <div className="flex items-center justify-between flex-wrap">
         <div className="flex items-center flex-shrink-0  mr-6">
           <span className="font-semibold text-xl tracking-tight">
-            <img width="130px" height="130px" src="cm-logo-dark.png"></img>
+            <img width="130px" height="130px" src="logo.png"></img>
           </span>
         </div>
         <div className="block lg:hidden">
@@ -84,6 +85,7 @@ const NavBar = () => {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </nav>
   );
