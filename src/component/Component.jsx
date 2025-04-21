@@ -15,7 +15,7 @@ import movies from "/movies.png";
 import series from "/series.png";
 import seriesDetail from "/series_detail.png";
 import movieDetail from "/movies_detail.png";
-import direct from '/direct.png'
+import direct from "/direct.png";
 
 export default function Component() {
   const images = [
@@ -69,28 +69,27 @@ export default function Component() {
                   BEST MOVIE APP
                 </h2>
                 <p className="align-text-top sm:text-center lg:text-left md:text-2xl lg:text-2xl">
-                  <strong className="text-yellow-600">MyCinema App</strong> မှာ <strong className="text-yellow-600">ChannelMyanmar website</strong>၊  မှ
-                  ရုပ်ရှင်များကို လွယ်ကူစွာ
-                
-                  တိုက်ရိုက်ကြည့်ရှုနိုင်ပြီး၊
-              
+                  <strong className="text-yellow-600">MyCinema App</strong> မှာ{" "}
+                  <strong className="text-yellow-600">
+                    ChannelMyanmar website
+                  </strong>
+                  ၊ မှ ရုပ်ရှင်များကို လွယ်ကူစွာ တိုက်ရိုက်ကြည့်ရှုနိုင်ပြီး၊
                   Download လည်း ပြုလုပ်နိုင်ပါပြီ။
                   <br />
                   အခုပဲ Download လုပ်ပြီး ကြည့်ရှုလိုက်ပါ။
                 </p>
                 <div class="xsm:flex items-center gap-2 justify-center">
-                  <a href="__black" >
+                  <a href="https://apkpure.net/p/com.two.channelmyanmar">
                     <img
                       className="h-[1rem] bg-zinc-900 p-2 md:h-[40px] sm:h-[42px] xsm:h-[38px] rounded-md w-full"
                       src="https://static.cdnpure.com/www/static/imgs/logo_new.png"
                     />
                   </a>
-                  <a href="https://file.azcoiner.com/azcoiner_release_v123.apk" className="lg:w-full">
-
-                    <img
-                      class="h-[3rem]"
-                      src="/direct.png"
-                    />
+                  <a
+                    href="https://github.com/toewaioo/mycinema/releases/download/v1.0.0/app-release.apk"
+                    className="lg:w-full"
+                  >
+                    <img class="h-[3rem]" src="/direct.png" />
                   </a>
                 </div>
               </div>
