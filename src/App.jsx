@@ -9,6 +9,7 @@ import Roadmap from "./component/Roadmap";
 import BubbleFlame from "./component/BubleFrame";
 import "./component/bublecss.css";
 import Footer from "./component/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <>
+    <Analytics/>
       <div className="block bg-neutral-100">
         <Navbar />
         <Component />
