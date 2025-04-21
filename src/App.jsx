@@ -10,6 +10,7 @@ import BubbleFlame from "./component/BubleFrame";
 import "./component/bublecss.css";
 import Footer from "./component/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import DownloadSection from "./component/Download";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -71,6 +72,7 @@ function App() {
             
           </div>
         </section>
+        <DownloadSection/>
         <section id="intro" className="w-full block bg-blue-400 ">
           <h3 className="flex items-center justify-center p-5 text-4xl font-bold">
             Introduce App
