@@ -1,10 +1,14 @@
 # MyCinema - Myanmar Movies & Series App
 
-<img src="https://mycinema-sage.vercel.app/logo.png" alt="MyCinema Logo" width="100"/>
+<img src="https://mycinema-sage.vercel.app/logo.png" alt="MyCinema Logo" width="100%"/>
 
 မြန်မာစာတန်းထိုး ရုပ်ရှင်၊ ဇာတ်လမ်းတွဲများကို ကြည့်ရှုရန်နှင့် ဒေါင်းလုတ်ဆွဲရန် Android Application
 
 ---
+
+## 📱 ScreenShots
+
+-<img src="https://raw.githubusercontent.com/toewaioo/mycinema/heads/main/public/home.png" width="806"> <img src="https://raw.githubusercontent.com/toewaioo/mycinema/heads/main/public/movies_details.png" width="400"> <img src="https://raw.githubusercontent.com/toewaioo/mycinema/heads/main/public/series_detail.png" width="400">
 
 ## 📱 အဓိက စွမ်းဆောင်ချက်များ
 
