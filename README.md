@@ -8,7 +8,9 @@
 
 ## 📱 ScreenShots
 
--<img src="https://raw.githubusercontent.com/toewaioo/mycinema/heads/main/public/home.png" width="806"> <img src="https://raw.githubusercontent.com/toewaioo/mycinema/heads/main/public/movies_details.png" width="400"> <img src="https://raw.githubusercontent.com/toewaioo/mycinema/heads/main/public/series_detail.png" width="400">
+-<img src="public/home.png" width="806"> 
+-<img src="public/movies_details.png" width="400"> 
+-<img src="public/series_detail.png" width="400">
 
 ## 📱 အဓိက စွမ်းဆောင်ချက်များ
 
