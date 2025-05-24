@@ -1,6 +1,6 @@
 const APKPURE_URL = "https://apkpure.net/p/com.two.channelmyanmar";
 const DIRECT_APK_URL =
-  "http://noads.atwebpages.com/app-release.apk";
+  "https://github.com/toewaioo/mycinema/releases/download/v1.5.0/app-release.apk";
 const TELEGRAM_URL = "https://t.me/mycinema_app";
 
 // Images from placeholder context
