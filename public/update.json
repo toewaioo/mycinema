@@ -1,7 +1,7 @@
 {
-  "whatNew": "1. Fixed bug on playing videos.\n2. Updated UI with material design\n 3. Minor bug fixes and performance improvements.\n4.Add new support third party link.(mega.nz,stream).\n5.Add system download feature.\n6.Improved over all performance. \n7.Fixed bug on android 12\n 8.Add link generator and deep link feature.  ",
-  "version": "1.6",
-  "downloadLink": "https://github.com/toewaioo/mycinema/releases/download/v1.6.0/app-release.apk",
+  "whatNew": "1. Fixed bug on playing videos.\n2.In app browsing supported.\n3.Fancode Free sport matches added.\n4.Imporoved over all performance. ",
+  "version": "1.8",
+  "downloadLink": "https://github.com/toewaioo/mycinema/releases/download/v1.8.0/app-release.apk",
   "apiKey": "https://php-on-vercel-ashen.vercel.app",
   "message": "🚀 New version available!\n1.We've made some great improvements and fixes.\n2.Update now to enjoy the best experience.",
   "block": false,
