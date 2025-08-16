@@ -86,7 +86,7 @@ export default function Component() {
                     />
                   </a>
                   <a
-                    href="https://github.com/toewaioo/mycinema/releases/download/v1.5.0/app-release.apk"
+                    href="https://github.com/toewaioo/mycinema/releases/download/v1.8.0/app-release.apk"
                     className="lg:w-full"
                   >
                     <img class="h-[3rem]" src="/direct.png" />
